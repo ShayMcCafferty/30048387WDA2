@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Skills</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link  rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+     <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+<nav class="navbar navbar-expand-md bg-dark navbar-dark">
+    <div class="container-fluid">
+
+      
+
+        <!-- LOGO -->
+        <a class="navbar-brand me-4" href="index.html">
+            <img src="assets/dog-grooming-vector-logo-design-600nw-2612515567.webp"
+                 alt="Logo"
+                 style="width: 45px;">
+        </a>
+
+        <!-- TOGGLER -->
+        <button class="navbar-toggler" type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarNav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- NAV LINKS -->
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+               <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item"><a class="nav-link " href="index.html">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="About.html">About</a></li>
+                <li class="nav-item"><a class="nav-link active" href="Skills.html">Skills</a></li>
+                <li class="nav-item"><a class="nav-link" href="Bookings.html">Bookings</a></li>
+                <li class="nav-item"><a class="nav-link" href="Products.html">Products</a></li>
+                <li class="nav-item"><a class="nav-link" href="Meettheteam.html">Meet the Team</a></li>
+            </ul>
+            </ul>
+        </div>
+
+    </div>
+</nav>
+
+<!-- MAIN CONTENT -->
+<main class="container mt-5">
+    <h1 class="text-center">Our Grooming Skills</h1>
+
+    <p class="text-center mt-3 mb-4">
+        Explore our professional dog grooming services. Click each section to learn more.
+    </p>
+
+    <div class="accordion accordion-flush" id="groomingAccordion">
+
+        <div class="accordion-item">
+            <h2 class="accordion-header">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#skillOne">
+                    Full Grooming
+                </button>
+            </h2>
+            <div id="skillOne" class="accordion-collapse collapse show" data-bs-parent="#groomingAccordion">
+                <div class="accordion-body">
+                    A complete grooming service including bath, haircut, brushing, blow-dry,
+                    and finishing touches tailored to your dogs breed and coat.
+                </div>
+            </div>
+        </div>
+
+        <div class="accordion-item">
+            <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#skillTwo">
+                    Hair Styling & Trimming
+                </button>
+            </h2>
+            <div id="skillTwo" class="accordion-collapse collapse" data-bs-parent="#groomingAccordion">
+                <div class="accordion-body">
+                    Breed-specific cuts or custom styles designed for comfort, hygiene,
+                    and your dogs unique personality.
+                </div>
+            </div>
+        </div>
+
+        <div class="accordion-item">
+            <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#skillThree">
+                    Bath & Dry
+                </button>
+            </h2>
+            <div id="skillThree" class="accordion-collapse collapse" data-bs-parent="#groomingAccordion">
+                <div class="accordion-body">
+                    Gentle shampoos and conditioners suitable for sensitive skin,
+                    leaving your dog clean, soft, and smelling fresh.
+                </div>
+            </div>
+        </div>
+
+        <div class="accordion-item">
+            <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#skillFour">
+                    Nail Trimming
+                </button>
+            </h2>
+            <div id="skillFour" class="accordion-collapse collapse" data-bs-parent="#groomingAccordion">
+                <div class="accordion-body">
+                    Safe and stress-free nail trimming to prevent discomfort
+                    and keep your dogs paws healthy.
+                </div>
+            </div>
+        </div>
+
+        <div class="accordion-item">
+            <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#skillFive">
+                    Ear Cleaning
+                </button>
+            </h2>
+            <div id="skillFive" class="accordion-collapse collapse" data-bs-parent="#groomingAccordion">
+                <div class="accordion-body">
+                    Careful ear cleaning to reduce buildup, prevent infections,
+                    and maintain overall ear health.
+                </div>
+            </div>
+        </div>
+
+        <div class="accordion-item">
+            <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#skillSix">
+                    Puppy & Senior Care
+                </button>
+            </h2>
+            <div id="skillSix" class="accordion-collapse collapse" data-bs-parent="#groomingAccordion">
+                <div class="accordion-body">
+                    Extra patience and gentle handling for puppies and senior dogs,
+                    ensuring a calm and positive grooming experience.
+                </div>
+            </div>
+        </div>
+
+    </div>
+</main>
+
+<!-- FOOTER -->
+<!-- Footer -->
+<!-- IMAGE STRIP -->
+    <div style="background-color:#252525; padding:25px 0; display:flex; justify-content:center; gap:30px;">
+        <img src="assets/facebook logo.png" style="width:80px; height:60px; background-color:#d9d9d9;">
+        <img src="assets/insta logo.jpg" style="width:80px; height:60px; background-color:#d9d9d9;">
+        <img src="assets/download.jpg" style="width:80px; height:60px; background-color:#d9d9d9;">
+        <img src="assets/booksy.jpg" style="width:80px; height:60px; background-color:#d9d9d9;">
+    </div>
+
+    <!-- STICKY FOOTER -->
+    <footer style="background: color #252525;; padding:25px 0; text-align:center; margin-top:auto;">
+        <!-- Footer -->
+    </footer>
+
+<!-- Bootstrap JS -->
+<script 
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js">
+</script>
+
+</body>
+</html>

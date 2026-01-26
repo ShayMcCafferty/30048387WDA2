@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Dog Products</title>
+
+    <!-- Bootstrap 4 CSS -->
+    <link rel="stylesheet"
+          href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+    <style>
+        body {
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .product-card {
+            height: 400px;
+            position: relative;
+        }
+
+        .product-text {
+            padding: 10px;
+            text-align: center;
+            margin-bottom: 25px;
+        }
+
+        .buy-now-btn {
+            position: absolute;
+            bottom: 10px;
+            right: 10px;
+        }
+
+        footer {
+            background-color: #252525;
+            padding: 25px 0;
+            text-align: center;
+            margin-top: auto;
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+<nav class="navbar navbar-expand-md navbar-dark bg-dark">
+    <div class="container-fluid">
+
+        <a class="navbar-brand" href="index.html">
+            <img src="assets/dog-grooming-vector-logo-design-600nw-2612515567.webp"
+                 alt="Logo" style="width:45px;">
+        </a>
+
+        <button class="navbar-toggler" type="button"
+                data-toggle="collapse"
+                data-target="#navbarNav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+               <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="About.html">About</a></li>
+                <li class="nav-item"><a class="nav-link" href="Skills.html">Skills</a></li>
+                <li class="nav-item"><a class="nav-link" href="Bookings.html">Bookings</a></li>
+                <li class="nav-item"><a class="nav-link active" href="Products.html">Products</a></li>
+                <li class="nav-item"><a class="nav-link" href="Meettheteam.html">Meet the Team</a></li>
+            </ul>
+        </div>
+
+    </div>
+</nav>
+
+<!-- MAIN CONTENT -->
+<div class="container mt-4">
+    <h1 class="text-center mb-4">Dog Products</h1>
+
+    <!-- Tabs -->
+    <ul class="nav nav-tabs">
+        <li class="nav-item">
+            <a class="nav-link active" data-toggle="tab" href="#treats">Treats</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" data-toggle="tab" href="#accessories">Accessories</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" data-toggle="tab" href="#toys">Toys</a>
+        </li>
+    </ul>
+
+    <!-- TAB CONTENT -->
+    <div class="tab-content mt-4">
+
+        <!-- TREATS -->
+        <div id="treats" class="tab-pane fade show active">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card product-card">
+                        <img src="assets/meat treat.jpg" class="card-img-top" style="height:180px; object-fit:fill;">
+                        <div class="product-text">This image shows a pile of small, square-shaped dog treats with a biscuit outside and a meat filling inside. The treats are stacked together and look dry and crunchy</div>
+                        <a href="#" class="btn btn-primary buy-now-btn">Buy Now</a>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card product-card">
+                        <img src="assets/bone treat.webp" class="card-img-top" style="height:180px; object-fit:fill;">
+                        <div class="product-text">This image shows several light-brown dog biscuits shaped like bones. The treats are simple in design and appear baked, making them suitable for everyday dog snacks.</div>
+                        <a href="#" class="btn btn-primary buy-now-btn">Buy Now</a>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card product-card">
+                        <img src="assets/beef jerkyy.webp" class="card-img-top" style="height:180px; object-fit:fill;">
+                        <div class="product-text">the product is appealing and intended for dogs as a chew-style snack.</div>
+                        <a href="#" class="btn btn-primary buy-now-btn">Buy Now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- ACCESSORIES -->
+        <div id="accessories" class="tab-pane fade">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card product-card">
+                        <img src="assets/armour.jpg" class="card-img-top" style="height:180px; object-fit:fill;;">
+                        <div class="product-text">This image shows protective dog clothing designed to cover a dog’s body. The accessory is sturdy and functional, suggesting it is used for protection, warmth, or outdoor activities.</div>
+                        <a href="#" class="btn btn-primary buy-now-btn">Buy Now</a>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card product-card">
+                        <img src="assets/dino backpack.webp" class="card-img-top" style="height:180px; object-fit:fill;;">
+                        <div class="product-text">This image shows a small backpack designed for dogs, styled like a dinosaur. It is worn on the dog’s back and is mainly decorative, but could also be used to carry small items</div>
+                        <a href="#" class="btn btn-primary buy-now-btn">Buy Now</a>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card product-card">
+                        <img src="assets/hat dogs.webp" class="card-img-top" style="height:180px; object-fit:fill;;">
+                        <div class="product-text">The accessory is designed for appearance rather than function and is intended to be fun or used for special occasions or photos.</div>
+                        <a href="#" class="btn btn-primary buy-now-btn">Buy Now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- TOYS -->
+        <div id="toys" class="tab-pane fade">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card product-card">
+                        <img src="assets/pid toy.webp" class="card-img-top" style="height:180px; object-fit:fill;;">
+                        <div class="product-text">This is a dog toy shaped like a pig. It is likely made of soft rubber or plastic, designed for dogs to chew and play with</div>
+                        <a href="#" class="btn btn-primary buy-now-btn">Buy Now</a>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card product-card">
+                        <img src="assets/happy carrot.jpg" class="card-img-top" style="height:180px; object-fit:fill;;">
+                        <div class="product-text">It’s bright orange with a green top, made from durable material for chewing. It’s designed to be playful and safe for dogs to chew on.</div>
+                        <a href="#" class="btn btn-primary buy-now-btn">Buy Now</a>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card product-card">
+                        <img src="assets/red boy.jpg" class="card-img-top" style="height:180px;object-fit:fill;;">
+                        <div class="product-text">It’s made from a sturdy material, perfect for chewing and playing, and designed to look like a cute dog figure.</div>
+                        <a href="#" class="btn btn-primary buy-now-btn">Buy Now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<!-- FOOTER -->
+<footer>
+    <div style="display:flex; justify-content:center; gap:30px; margin-bottom:15px;">
+        <img src="assets/facebook logo.png" style="width:80px; height:60px; background:#d9d9d9;">
+        <img src="assets/insta logo.jpg" style="width:80px; height:60px; background:#d9d9d9;">
+        <img src="assets/download.jpg" style="width:80px; height:60px; background:#d9d9d9;">
+        <img src="assets/booksy.jpg" style="width:80px; height:60px; background:#d9d9d9;">
+    </div>
+    © 2026 Dog Products Website
+</footer>
+
+<!-- Bootstrap 4 JS -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</body>
+</html>
